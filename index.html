@@ -1,0 +1,346 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Music Website</title>
+    </head>
+    <body>
+        <header>
+            <div class="menu_side">
+                <h1>PlayList</h1>
+                <div class="playlist">
+                    <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> PlayList</h4>
+                    <h4><span></span><i class="bi bi-music-note-beamed"></i> Last Listening</h4>
+                    <h4><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
+                </div>
+                <div class="menu_song">
+                    <li class="songItem">
+                        <span>01</span>
+                        <img src="img/1.jpeg" alt="">
+                        <h5>TOKYO DRiFT   <br> 
+                            <div class="subtitle">below!</div>
+                        </h5>
+                        <i class="bi playlistplay bi-play-fill" id="1"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>02</span>
+                        <img src="img/2.jpeg" alt="">
+                        <h5>Roses - Imanbek Remix <br> 
+                            <div class="subtitle">SAINt JHN,Imanbrk</div>
+                        </h5>
+                        <i class="bi playlistplay bi-play-fill" id="2"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>03</span>
+                        <img src="img/3.jpeg" alt="">
+                        <h5>Violet <br> 
+                            <div class="subtitle">Connor Price</div>
+                        </h5>
+                        <i class="bi playlistplay bi-play-fill" id="3"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>04</span>
+                        <img src="img/4.jpeg" alt="">
+                        <h5>BM - London View  <br> 
+                            <div class="subtitle">OTP</div>
+                        </h5>
+                        <i class="bi playlistplay bi-play-fill" id="4"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>05</span>
+                        <img src="img/5.jpeg" alt="">
+                        <h5> Superman <br> 
+                            <div class="subtitle">Eminem,Dina Rose</div>
+                        </h5>
+                        <i class="bi playlistplay bi-play-fill" id="5"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>06</span>
+                        <img src="img/6.jpeg" alt="">
+                        <h5>World's Smallest Violin <br> 
+                            <div class="subtitle">AJR</div>
+                        </h5>
+                        <i class="bi playlistplay bi-play-fill" id="6"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>07</span>
+                        <img src="img/7.jpeg" alt="">
+                        <h5>Make You Mine <br> 
+                            <div class="subtitle">HalfSky</div>
+                        </h5>
+                        <i class="bi playlistplay bi-play-fill" id="7"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>08</span>
+                        <img src="img/8.jpeg" alt=""> 
+                        <h5>Without Me<br> 
+                            <div class="subtitle">Eminem</div>
+                        </h5>
+                        <i class="bi playlistplay bi-play-fill" id="8"></i>
+                    </li> 
+                    <!-- <li class="songItem"> -->
+                        <!-- <span>09</span> -->
+                        <!-- <img src="img/2.jpeg" alt=""> -->
+                        <!-- <h5>TOKYO DRiFT <br>  -->
+                            <!-- <div class="subtitle">below!</div> -->
+                        <!-- </h5> -->
+                        <!-- <i class="bi playlistplay bi-play-fill" id="2"></i> -->
+                    <!-- </li>  -->
+                    <!-- <li class="songItem"> -->
+                        <!-- <span>10</span> -->
+                        <!-- <img src="img/2.jpeg" alt=""> -->
+                        <!-- <h5>TOKYO DRiFT <br>  -->
+                            <!-- <div class="subtitle">below!</div> -->
+                        <!-- </h5> -->
+                        <!-- <i class="bi playlistplay bi-play-fill" id="2"></i> -->
+                    <!-- </li>  -->
+                    <!-- <li class="songItem"> -->
+                        <!-- <span>11</span> -->
+                        <!-- <img src="img/2.jpeg" alt=""> -->
+                        <!-- <h5>TOKYO DRiFT <br>  -->
+                            <!-- <div class="subtitle">below!</div> -->
+                        <!-- </h5> -->
+                        <!-- <i class="bi playlistplay bi-play-fill" id="2"></i> -->
+                    <!-- </li>   -->
+                </div>  
+            </div>
+
+
+            <div class="song_side">
+                <nav>
+                    <ul>
+                        <li>Discover <span></span></li>
+                        <li>MY LIBRARY</li>
+                        <li>RADIO</li>
+                    </ul>
+            <div class="search">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="Search Music...">
+                    </div>
+                    <div class="user">
+                        <img src="img/3522.jpeg" alt="">
+                    </div>
+                </nav>
+                <div class="content">
+                    <h1>Eminem - Without Me</h1>
+                    <p>I've created a monster <br>
+                        'Cause nobody wants to see Marshall no more, they want Shady, I'm chopped liver</p>
+                        <div class="buttons">
+                            <button>PLAY</button>
+                            <button>FOLLOW</button>
+                        </div>
+                </div>
+                <div class="popular_song">
+                    <div class="h4">
+                        <h4>Popular Song</h4>
+                        <div class="btn_s">
+                            <i class="bi bi-arrow-left" id="pop_song_left"></i>
+                            <i class="bi bi-arrow-right" id="pop_song_right"></i>
+                        </div>
+                    </div>
+                    <div class="pop_song">
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/9.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="9"></i> 
+                            </div>
+                            <h5> Heathens <br> 
+                                <div class="subtitle">Twenty One Pilots</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/10.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="10"></i> 
+                            </div>
+                            <h5>Dancing With Your Ghost <br> 
+                                <div class="subtitle">Sasha Alex Sloan</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/11.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="11"></i> 
+                            </div>
+                            <h5>Die For You <br> 
+                                <div class="subtitle">Joji</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/12.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="12"></i> 
+                            </div>
+                            <h5>Another Love <br> 
+                                <div class="subtitle">Tom Odell</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/13.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="13"></i> 
+                            </div>
+                            <h5>The Real Slim Shady <br> 
+                                <div class="subtitle">Eminem</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/14.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="14"></i> 
+                            </div>
+                            <h5>Still D.R.E. <br> 
+                                <div class="subtitle">Dr. Dre</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/15.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="15"></i> 
+                            </div>
+                            <h5>No Vaseline <br> 
+                                <div class="subtitle">Ice Cube</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/16.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="16"></i> 
+                            </div>
+                            <h5>All Eyez On Me <br> 
+                                <div class="subtitle">2Pac,Big Sky</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/17.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="17"></i> 
+                            </div>
+                            <h5>Devils Moon <br> 
+                                <div class="subtitle">SKILL</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/18.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="18"></i> 
+                            </div>
+                            <h5>BOOM SHAQ! <br> 
+                                <div class="subtitle">cutemain</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/19.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="19"></i> 
+                            </div>
+                            <h5>MUERTA <br> 
+                                <div class="subtitle">SKILL</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/20.jpeg" alt="">
+                                <i class="bi playlistplay bi-play-fill" id="20"></i> 
+                            </div>
+                            <h5>RATATA <br> 
+                                <div class="subtitle">Skrillex</div>
+                            </h5>
+                        </li>
+                    </div>    
+                </div>
+                <div class="popular_artists">
+                    <div class="h4">
+                        <h4>Popular Artists</h4>
+                        <div class="btn_s">
+                            <i class="bi bi-arrow-left" id="pop_art_left"></i>
+                            <i class="bi bi-arrow-right" id="pop_art_right"></i>
+                        </div>
+                        <div class="item">
+                             <li>
+                                <img src="img/eminem.jpg" alt="">
+                             </li>
+                             <li>
+                                <img src="img/a.jpeg" alt="">
+                             </li>
+                             <li>
+                                <img src="img/b.jpeg" alt="">
+                             </li>
+                             <li>
+                                <img src="img/d.jpeg" alt="">
+                             </li>
+                             <li>
+                                <img src="img/c.jpeg" alt="">
+                             </li>
+                            
+                             <li>
+                                <img src="img/f.jpeg" alt="">
+                             </li> 
+                             
+                             <li>
+                                <img src="img/e.jpeg" alt="">
+                             </li>
+                             
+                             <li>
+                                <img src="img/g.jpeg" alt="">
+                             </li>
+                             
+                             <li>
+                                <img src="img/h.jpeg" alt="">
+                             </li>
+                             
+                             <li>
+                                <img src="img/i.jpeg" alt="">
+                             </li>
+                             <li>
+                                <img src="img/j.jpeg" alt="">
+                             </li> 
+                            
+                        </div>
+                </div>
+            </div>
+ 
+
+            <div class="master_play">
+                <div class="wave" id="wave">
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                </div>
+                <img src="img/8.jpeg" alt="" id="poster_master_play">
+                <h5 id="title">
+                 Without Me
+                 <div class="subtitle">
+                    Eminem
+                 </div>
+                </h5>
+                <div class="icon">
+                    <i class="bi shuffle bi-music-note-beamed">next</i>
+                    <i class="bi bi-skip-start-fill" id="back" ></i>
+                    <i class="bi bi-play-fill" id="masterplay" ></i>
+                    <i class="bi bi-skip-end-fill" id="next"></i>
+                    <i class="bi bi-cloud-arrow-down-fill" id="download_music"></i>
+                </div>
+                <span id="currentStart">0:00</span>
+                <div class="bar">
+                    <input type="range" name="" id="seek" min="0" max="100" >
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+                <span id="currentEnd">0:30</span>
+                <div class="vol">
+                    <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="vol_bar"></div>
+                    <div class="dot" id="vol_dot"></div>
+                </div>
+            </div>
+        </header>
+        <script src="app.js"></script>
+    </body>
+
+</html>
